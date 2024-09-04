@@ -1,6 +1,7 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Welcome new user. Register yourself...!!</h1>
+    <h1>Welcome new user</h1>
+    <h1>Register Yourself...!!</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
