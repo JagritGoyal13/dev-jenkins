@@ -4,13 +4,13 @@ metadata:
   name: regapp-deployment
   labels: 
      app: regapp
-
+ 
 spec:
   replicas: 2 
   selector:
     matchLabels:
       app: regapp
-
+ 
   template:
     metadata:
       labels:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: ashfaque9x/regapp
+        image: 977099002734.dkr.ecr.ap-south-1.amazonaws.com/project-ecr:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
