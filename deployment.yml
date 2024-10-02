@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: regapp-deployment
+  name: jagrit-deployment
   labels: 
      app: regapp
  
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: 977099002734.dkr.ecr.ap-south-1.amazonaws.com/project-ecr:latest
+        image: 977099002734.dkr.ecr.ap-south-1.amazonaws.com/aks-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
